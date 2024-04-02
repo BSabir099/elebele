@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px
+}
+.flex{display: flex;}
+.justify-between{justify-content: space-between;}
+.justify-center{justify-content: center;}
+.align-items{align-items: center;}
+
+.selects{
+    padding-inline: 20px;
+}
+.icons >li{
+ list-style: none;
+ 
+}
+.icons{
+    gap: 10px;
+    font-size: 15px;
+    color: rgb(141, 136, 136);
+
+}
+.selects >select{
+    border: 0;
+    outline: none;
+}
+.icons :hover{
+
+    cursor: pointer;
+    border-radius: 50%; 
+}
+.header_top{
+ border-bottom: 1px solid #e7e7ee   ;
+}
+.logo > img{
+    padding: 30px 100px; 
+
+}
+.d-flex > input{
+    width: 500px;
+    padding-block: 10px;
+    border-radius: 15px;
+}
+.header_mean{
+    border-bottom: 1px solid #e7e7ee;
+}
+.callUs{
+        padding-inline: 50px;
+}
+.callUs > i{
+    font-size: 30px;
+    color: #5e5e63;
+}
+.callUs > ul{
+    list-style: none;
+}
+.number{
+    font-size: 17px;
+    font-weight: bold;
+}
+.icons2{
+    gap: 10px;
+}
+.icons2>li{
+    list-style: none;
+}
+.icons2 i{
+    font-size: 28px;
+    padding-inline: 5px;
+}
+ .icons2 > li > a{
+    color: rgb(50, 49, 49);
+ }
+.buy_porto > ul {
+    list-style: none;
+    column-gap: 20px;
+    padding-right: 220px;
+    
+    a{
+        color: rgb(105, 100, 100);
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+.buy_porto{
+    padding-top: 20px;
+}
+.nav_menu{
+    padding-left: 80px;
+}
+.navbar-nav > li > a{
+    font-size: 15px;
+}
+
+.company > img{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    object-fit: cover;
+}
+.company > i{
+    color:#bdbdc1;
+    
+}
+.company{
+    .fa-house{
+        padding-left:60px;
+        font-size: 13px;
+    }
+    .fa-chevron-right{
+        font-size: 10px
+    }
+}
+.company > a{
+    color: #bdbdc1;
+}
+.company > a:hover{
+    color: rgb(52, 52, 201);
+}
+.story{
+    padding: 20px 100px;
+}
+.story>h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.story > .first{
+    color: #787878;
+}
+.story > .second{
+    color: black;
+    font-size: 17px;
+}
+.freeShipping{
+    height: 300px;
+    width: 400px;
+    background-color: #dedee4;
+}
+.backGuarante{
+    height: 300px;
+    width: 400px;
+    background-color:#dedee4;
+}
+.support{
+    height: 300px;
+    width: 400px;
+    background-color:#dedee4;
+}
+.chooseUs{
+    gap: 30px;
+    background-color: rgb(241, 240, 240);
+    height: 500px;
+    i{
+        font-size: 50px;
+        padding: 40px 0 0px 40px;
+        color: rgb(0, 119, 255);
+    }
+    h1{
+        padding: 10px 0 10px 40px;
+        font-weight: bold;
+        font-size: 20px;        
+    }
+    p{
+        padding: 0 30px 10px 40px;   
+    }
+}
+.happyClients{
+    height: 300px;
+    background-color:hsl(0, 0%, 100%);
+    h1{
+        text-align: center;
+    }
+}
+.raiting{
+    background-color:#dedee4;
+    height: 150px;
+    li{
+        padding-inline: 70px;
+        padding-top: 50px;
+        list-style: none;
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(0, 116, 248);
+    }
+}
+footer{
+    height: 500px;
+    background-color: rgb(24, 24, 24);
+    gap:70px;
+     
+    h1{
+        color: white;
+        font-size: 20px;
+        padding-inline: 70px;
+        padding-top: 30px;
+    }
+    ul>li{
+        color: white;
+        font-size: 15px;
+        padding-inline: 45px;
+        padding-top: 10px; 
+        list-style: none;
+    }
+    p{
+        color: rgb(157, 153, 153);
+        font-size: 13px;
+        padding-inline:45px;
+    }
+}
+.customer >ul >li >a{
+    color:rgb(157, 153, 153);;
+    text-decoration: none;
+    
+}
+.customer >ul >li >a:hover{
+    color: rgb(0, 76, 255);
+}
+.newsletter > p{
+    padding-left: 70px;
+    
+}
+.newsletter > input{
+    margin-left: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #424040;
+    outline: none;
+    color: #dedee4;
+    border: 1px solid rgb(40, 39, 39);
+    width:250px;
+}
